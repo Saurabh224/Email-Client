@@ -29,8 +29,8 @@ class SendEmailSSL {
     String attatch=null;
     SendEmailSSL(String su,String re,String mg,String att)
     {
-        username="gssstudies@gmail.com";
-        password="gsproducts96";
+        username="example@gmail.com";
+        password="password";
         sub=su;
         rec=re;
         msg=mg;
