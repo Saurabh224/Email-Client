@@ -55,7 +55,7 @@ private static int getScreenHeight() {
       Session session = Session.getDefaultInstance(props, null);
       // session.setDebug(true);
       store = session.getStore("imaps");
-      store.connect("imap.gmail.com","gssstudies@gmail.com", "gsproducts96");
+      store.connect("imap.gmail.com","example@gmail.com", "********");
       folder = store.getFolder("[Gmail]/Sent Mail");
       /* Others GMail folders :
        * [Gmail]/All Mail   This folder contains all of your Gmail messages.
