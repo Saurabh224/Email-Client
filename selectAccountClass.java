@@ -86,8 +86,8 @@ public class selectAccountClass extends JPanel implements ActionListener {
             ReceiveEmail re=new ReceiveEmail();
             String host = "pop.gmail.com";// change accordingly
             String mailStoreType = "pop3";
-            String username = "gssstudies@gmail.com";// change accordingly
-            String password = "gsproducts96";// change accordingly
+            String username = "example@gmail.com";// change accordingly
+            String password = "*********";// change accordingly
             mainPanel=re.check(host, mailStoreType, username, password);
             frame.add(mainPanel);
             System.out.println("kkk");
